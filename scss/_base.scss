@@ -1,0 +1,26 @@
+// Base styles for headings, paragraphs, lists, etc.
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-weight-bold;
+    color: $primary-color;
+  }
+  
+  p {
+    font-size: $font-size-base;
+    color: $text-color;
+    margin-bottom: $margin-base;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: $margin-base 0;
+    padding-left: $padding-base;
+  }
+  
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  

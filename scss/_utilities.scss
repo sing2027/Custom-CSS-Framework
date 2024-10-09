@@ -1,0 +1,17 @@
+// Table styles
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: $margin-base;
+  
+    th, td {
+      padding: $padding-base;
+      border: 1px solid #ccc;
+    }
+  
+    th {
+      background-color: $primary-color;
+      color: white;
+    }
+  }
+  
